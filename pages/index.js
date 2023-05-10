@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <p>{t("hello")}</p>
-      <p>{t("title", { ns: "header" })}</p>
+      <p>{t("CG_header", { ns: "header" })}</p>
       <p>{t("phrase")}</p>
 
       <button>
