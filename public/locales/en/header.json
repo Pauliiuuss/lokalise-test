@@ -1,3 +1,4 @@
 {
-    "CG_header": "Hello world!"
+    "CG_header": "Hello world!",
+    "title": "As soon as the app is set up, you can pull the files manually via the Lokalise web dashboard or set up an automatic pull so that the files are imported automatically as they are pushed to GitHub by your developer team. "
 }

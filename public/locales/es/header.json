@@ -1,3 +1,4 @@
 {
-    "CG_header": "¡Hola Mundo!"
+    "CG_header": "¡Hola Mundo!",
+    "title": "Tan pronto como la aplicación esté configurada, puede extraer los archivos manualmente a través del panel web de Lokalise o configurar una extracción automática para que los archivos se importen automáticamente a medida que su equipo de desarrolladores los envía a GitHub."
 }
