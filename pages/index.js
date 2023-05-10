@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function Home() {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation(["common", "header"]);
   const router = useRouter();
 
   return (
@@ -19,6 +19,8 @@ export default function Home() {
       </Head>
 
       <p>{t("hello")}</p>
+      <p>{t("title", { ns: "header" })}</p>
+      <p>{t("phrase")}</p>
 
       <button>
         <Link href={router.asPath} locale={"en"}>
@@ -40,7 +42,7 @@ export default function Home() {
 export const getServerSideProps = async (context) => {
   return {
     props: {
-      ...(await serverSideTranslations(context.locale, ["common"])),
+      ...(await serverSideTranslations(context.locale, ["common", "header"])),
     },
   };
 };
