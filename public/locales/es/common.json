@@ -1,4 +1,5 @@
 {
     "hello": "Hola Mundo",
-    "phrase": "Una vez que se completan las traducciones, puede activar la creación de una solicitud de extracción en GitHub a través de la página de descarga."
+    "phrase": "Una vez que se completan las traducciones, puede activar la creación de una solicitud de extracción en GitHub a través de la página de descarga.",
+    "titles": "Hola, mi nombre es"
 }
