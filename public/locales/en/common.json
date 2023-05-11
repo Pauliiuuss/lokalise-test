@@ -1,4 +1,5 @@
 {
     "hello": "hello world",
-    "phrase": "Once the translations are completed, you can trigger the creation of a pull request on GitHub via the Download page."
+    "phrase": "Once the translations are completed, you can trigger the creation of a pull request on GitHub via the Download page.",
+    "titles": "hello my name is"
 }
